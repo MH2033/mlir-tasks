@@ -1,0 +1,3 @@
+[submodule "task4/mlir-linalg-extended"]
+	path = task4/mlir-linalg-extended
+	url = https://github.com/MH2033/mlir-linalg-extended.git
