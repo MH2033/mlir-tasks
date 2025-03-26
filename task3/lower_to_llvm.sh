@@ -6,7 +6,6 @@ mlir-opt ../task2/matmul_transformed.mlir \
         --convert-scf-to-cf \
         --convert-arith-to-llvm \
         --convert-func-to-llvm \
-        --convert-memref-to-spirv \
         --finalize-memref-to-llvm \
         --reconcile-unrealized-casts \
         -o matmul_lowered.mlir
